@@ -1,1 +1,1 @@
-![Image alt](https://github.com/{AnastasiaN-97}/{generator}/raw/{Default branch}/image.png)
+![Image alt](https://github.com/{AnastasiaN-97}/{generator}/raw/{main}/image.png)
