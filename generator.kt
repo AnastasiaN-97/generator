@@ -23,16 +23,16 @@ class Laptop{
 
 class LaptopGroupGenerator(_min: Int, _max: Int) {
 
-    var i = if (_min < _max) (_min.._max).random() else (_max.._min).random()
-    var l = 0
+    var countItem = if (_min < _max) (_min.._max).random() else (_max.._min).random()
+    var temp = 0
     var listGenerate: MutableList<Laptop> = mutableListOf()
     
     fun generator(){
-        while (l<i){
+        while (temp < countItem){
             val laptop = Laptop()
             listGenerate.add(laptop)
             println("Ноутбук от компании ${laptop.brand} диагональю ${laptop.diagonal}\", процессором ${laptop.cpu} и оперативной памятью ${laptop.ram}ГБ")
-            l++
+            temp++
         }
     }
 }
